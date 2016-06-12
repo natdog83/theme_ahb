@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="snippet_beer" name="Snippet Our Beer" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']" position="inside">
+
+                <div>
+                    <!-- Thumbnail -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/website_tabs/static/src/img/thumbnail.png" />
+                        <span class="oe_snippet_thumbnail_title">Our Beer</span>
+                    </div>
+
+                    <!-- Snippet Body -->
+                    <section class="oe_snippet_body page snippet_beer">
+                        <div class="container">
+                            <div class="row">
+                                <div role="tabpanel">
+                                    <!-- Nav tabs -->
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li role="presentation" class="active"><a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">Text Block</a></li>
+                                        <li role="presentation"><a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab">Text-Image</a></li>
+                                        <li role="presentation"><a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab">Image-Text</a></li>
+                                    </ul>
+                                    <!-- Tab panes -->
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="oe_structure oe_empty tab-pane active" id="tab1">
+                                            <section class="mb16">
+                                                <!-- Text Block snippet -->
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-md-12 text-center mt16 mb32">
+                                                            <!-- this is where the beer will go -->
+															Beer
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                        <div role="tabpanel" class="oe_structure oe_empty tab-pane" id="tab2">
+                                            <section class="mt16 mb16">
+                                                <!-- Text-Image snippet -->
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-md-12 text-center mt16 mb32">
+                                                            <!-- this is where the beer will go -->
+															Beer
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                        <div role="tabpanel" class="oe_structure oe_empty tab-pane" id="tab3">
+                                            <!-- Image-Text snippet -->
+                                            <section class="mt16 mb16">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-md-12 text-center mt16 mb32">
+                                                            <!-- this is where the beer will go -->
+															Beer
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+            </xpath>
+        </template>
+
+        <template id="snippet_beer_options" inherit_id="website.snippet_options">
+            <xpath expr="." position="inside">
+                <div data-snippet-option-id="snippet_beer" 
+                     data-selector=".cst">
+                    <li class="divider"></li>
+                    <li><a href="#" class="js_add">Add New Tab</a></li>
+                    <li><a href="#" class="js_remove">Remove Current Tab</a></li>
+                </div>
+            </xpath>
+        </template>
+
+    </data>
+</openerp>

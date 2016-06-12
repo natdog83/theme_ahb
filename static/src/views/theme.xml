@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vim:fdn=3:
+-->
+<openerp>
+    <data>
+		<template id="homepage_inherit" inherit_id="website.homepage"> 	
+			<xpath expr="//div" position="inside">
+				<div class="oe_structure oe_empty" id="wrap" data-oe-id="318" data-oe-source-id="288" data-oe-xpath="/data/xpath/div[2]" data-oe-model="ir.ui.view" data-oe-field="arch">
+					<div id="headanon">
+					<div id="page1" class="page bgcolor center">
+						<div class="container oe_structure pull-down">
+							<div class="row row-centered">
+								<div class="col-md-12"  style="margin:0">
+									<div class="caption" style="margin:0">
+										<h1>We Have Some Exciting News!</h1>
+									</div>
+								</div>
+                            </div>
+							<div class="row" style="margin-bottom:10px">
+                                <div class="col-md-6"  style="margin:0"> </div>
+                                <div class="col-md-6"  style="margin:0">
+                                    <div class="caption" style="margin:0">
+                                        <p>After combining forces and a lot of planning, negotiating and hard work we are excited that to announce that we're planning to sign a lease.  We are working on the final details of the partnership with an amazing landlord who has similar values of community, quality and hard work...Please stay toned within the next week we will post an article on our blog with more details.</p>
+                                    </div>
+                                </div>
+                                <a href="#ahbmenu"><h2>Scroll<br /><i class="icon-chevron-down icon-1x "></i></h2></a>
+							</div>
+						</div>
+					</div>
+					</div>
+					<!-- /Home-->
+					<section id="aboutus" class="page center page2fix">
+					<!-- Services -->
+						<div id="page2" class="page center page2fix">
+							<t t-call="theme_ahb.ahb_aboutus" />
+						</div>
+					<!-- /Services-->
+					</section>
+					<section id="beer" class="page center">
+
+						<div id="window1" class="window">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-12">
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Pricing-->
+						<div id="page3" class="cover js_fullheight">
+							<div class="container oe_structure">
+								<div class="row">
+									<div class="col-md-12">
+										<h1 class="">Our Beer</h1>
+									</div>
+								</div>
+
+							<div class="row">
+								<div class="col-md-12">
+									<h3 class="center">Here are a few of our beers.  Check back for a full listing and a cool new beer tool!</h3>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-4">
+									<div class="well well-large pricing">
+										<h2>Hooligan English IPA</h2>
+										<img src="../theme_ahb/static/src/img/hooliganipa.png" class="img-responsive" alt="Hooligan IPA" />
+
+										<p>Hooligan is an award winning English IPA you may have seen featured during LA Beer Week at 
+										Macleod or Golden Road.  A robust troublemaker brewed with only two malts. English malt 
+										brings smooth richness to balance belligerent hoppiness. This choodessny firegold is great on a sunny summer 
+										day, or can be enjoyed with your mates while looking for action in darkened alleyways.</p>               
+									</div>
+								</div>
+
+								<div class="col-md-4">
+									<div class="well well-large pricing">
+										<h2>East LA IPA</h2>
+										<img src="../theme_ahb/static/src/img/eastlaipa.png" class="img-responsive" alt="East LA IPA" />
+										<p>East LA IPA is an over-hopped California classic. Brewed in the west coast style, East LA 
+										will remind you of driving slow with the windows down and the radio blasting. With dominant 
+										aromas reminiscent of California citrus, and a bitter finish. East LA is diverse and complex, 
+										with slight variations in the hops added to each batch. </p>               
+									</div>
+								</div>
+
+								<div class="col-md-4">
+									<div class="well well-large pricing">
+										<h2>Heaven's Ranch Amber Ale</h2>
+										<img src="../theme_ahb/static/src/img/havensranchamberale.png" class="img-responsive" alt="Heaven's Ranch Amber Ale" />
+										<p>There is a place in Chino Hills called Heaven’s Ranch Rescue, where the horses are cared for 
+										and well-fed. With a floral and citrusy aroma, our amber ale is a reminder of that place. 
+										High-quality hops from the American Northwest are supported by the complex flavor of Munich 
+										and American caramel malts. A portion of the proceeds from sale of this beer will be donated 
+										to Heaven’s Ranch. </p>                 
+									</div>
+								</div>
+							</div>
+
+							<div class="row vspace50">
+								<div class="col-md-12">
+									
+								</div>
+							</div>
+							</div>
+						</div>
+					</section>
+					<!-- /Pricing-->
+					<section id="tweets" class="page">
+						<div id="window2" class="window">
+							<div class="container">
+								<div class="row center">
+									<div class="col-md-12">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div id="page4" class="center">
+							<div class="container hidden-sm">
+								<div class="row">
+							    <section class="twitter hidden-sm" data-limit="15" data-screen-name="OpenERP">
+									<div class="twitter_timeline hidden-sm"/>
+								</section>
+								</div>
+							</div>
+						</div>
+					</section>
+					
+					<section id="contact" class="page">
+						<div id="window3" class="window">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-12">
+									</div>
+								</div>
+							</div>
+						</div>
+		
+						<!-- Contact -->
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 center">
+									<h1><span><i class="icon-envelope-alt"></i>Contact Us</span></h1>
+									<h3>write us  for everything you want to ask, we will be glad to answer you.</h3>
+
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-4">
+									<h3>Location and Contacts</h3>
+									<p>
+										<i class="icon-map-marker"></i>
+										626 S. Spring St. Unit 201<br />Los Angeles CA 90014					
+									</p>
+									<p>
+										<i class="icon-phone"></i>
+										Phone: 213.605.5495					
+									</p>
+									<p>
+										<i class="icon-envelope"></i>
+										Email: info@angryhorsebrewing.com						
+									</p>
+									<p>
+										<i class="icon-globe"></i>
+										Web: https://www.angryhorsebrewing.com					
+									</p>
+								</div>
+								<div class="col-md-8 center">
+									<form id="contactForm" class="form" action="/crm/contactus" method="POST" enctype="multipart/form-data">
+										<div class="form-group">
+											<input id="contact_name" name="contact_name" type="text" placeholder="Full Name" class="col-md-8 form-control" required="True"/>
+										</div>
+										<div class="form-group">
+											<input id="phone" name="phone" type="text" placeholder="Phone Number" class="col-md-8 form-control" />
+										</div>
+										<div class="form-group">
+											<input id="email_from" name="email_from" type="text" placeholder="Email" class="col-md-8 form-control" required="True"/>
+										</div>
+										<input id="name" name="name" type="hidden" value="Homepage Contact" class="col-md-8 form-control" />
+										<div class="form-group">
+											<textarea id="description" name="description" placeholder="Message" class="col-md-8 form-control" rows="10" required="True"></textarea>
+										</div>
+										<div class="form-group">
+											<button class="btn-theme pull-left form-control">Send</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+						<!-- <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Manhattan,+New+York,+NY,+United+States&amp;aq=0&amp;oq=manhat&amp;sll=35.817813,-95.712891&amp;sspn=52.450475,111.621094&amp;ie=UTF8&amp;hq=&amp;hnear=Manhattan,+New+York&amp;t=m&amp;z=12&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Manhattan,+New+York,+NY,+United+States&amp;aq=0&amp;oq=manhat&amp;sll=35.817813,-95.712891&amp;sspn=52.450475,111.621094&amp;ie=UTF8&amp;hq=&amp;hnear=Manhattan,+New+York&amp;t=m&amp;z=12&amp;iwloc=A" style="color:#fff;text-align:left; padding-left: 60px;"><i class="icon-zoom-in"></i>ZOOM MAP</a></small> -->
+						</section>
+			
+
+				</div>
+			</xpath>
+		</template>
+		<template id="layout_inherit" inherit_id="website.layout">
+			<xpath expr="//html/head" position="inside">
+
+			</xpath> 
+			<xpath expr="//html/body" position="inside">
+				<a id="scrollToTop"><i class="icon-caret-up"></i></a>
+				
+			</xpath> 
+			<xpath expr="//div[@id='wrapwrap']/header" position="replace">
+                <header>
+					<div id="inanon">
+					</div>
+					<div id="ahbmenu"></div>
+                    <div class="navbar navbar-default navbar-static-top" id="mainnavbar" style="overflow: visible">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-top-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"/>
+                                    <span class="icon-bar"/>
+                                    <span class="icon-bar"/>
+                                </button>
+                                <a class="navbar-brand" href="/" t-field="res_company.name"/>
+							</div>
+                            <div class="collapse navbar-collapse navbar-top-collapse">
+                                <ul class="nav navbar-nav navbar-left" id="top_menu">
+                                    <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                                        <t t-call="website.submenu"/>
+                                    </t>
+                                    <li class="dropdown" t-ignore="true" t-if="website.user_id != user_id">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                            <b>
+                                                <span t-esc="user_id.name"/>
+                                                <span class="caret"/>
+                                            </b>
+                                        </a>
+                                        <ul class="dropdown-menu js_usermenu" role="menu">
+                                            <li><a href="/web" role="menuitem">My Account</a></li>
+                                            <li><a t-attf-href="/web/session/logout?redirect=/" role="menuitem">Logout</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+					</div>
+					<div class="page2fix"></div>
+                </header>
+			</xpath> 
+		</template>
+		<template id="assets_frontend" name="theme_ahb_asset_frontend" inherit_id="web.assets_common">
+			<xpath expr="." position="inside">
+			
+			</xpath>
+		</template>	
+		<template id="menu_secondary" name="theme_ahb_menu_secondary" inherit_id="web.menu_secondary">
+			<xpath expr="//div[@class='oe_footer']" position="replace">			
+				<div class="oe_footer">
+					<!-- Powered by <a href="http://www.odoo.com" target="_blank"><span>Odoo</span></a> -->
+				</div>
+			</xpath>
+		</template>
+		<template id="login_layout" name="ahb_login_layout" inherit_id="web.login_layout">
+			<xpath expr="//div[@class='oe_single_form_footer']" position="replace">			
+				<div class="oe_single_form_footer" t-if="not disable_footer">
+					<t t-if="not disable_database_manager">
+						<a class="oe_login_manage_db" t-attf-href="/web/database/manager{{ '?debug' if debug else '' }}">Manage Databases</a>
+						<!-- <span class="oe_footer_seperator"> | </span> -->
+						<!-- <a href="https://www.odoo.com" target="_blank">Powered by <span>Odoo</span></a> -->
+					</t>
+				</div>
+			</xpath>
+		</template>
+		<template id="layout_footer_copyright" name="ahb_layout_footer_copyright" inherit_id="website.layout_footer_copyright">
+			<xpath expr="//div[@class='container mt16 mb8']" position="replace">			
+				<div class="container mt16 mb8">
+					<!-- <div class="pull-right" t-ignore="true" t-if="not editable">
+						Powered by <a class="label label-danger" href="http://www.odoo.com/page/website-builder">Odoo</a>,
+						the #1 <a href="http://www.odoo.com/page/e-commerce">Open Source eCommerce</a>.
+					</div> -->
+					<div class="pull-left text-muted">
+						Copyright &amp;copy; <span t-field="res_company.name">Company name</span>
+					</div>
+				</div>
+			</xpath>
+		</template>
+		<template id="assets_frontend" name="theme_ahb_asset_frontendtest" inherit_id="website.assets_frontend">
+		  <xpath expr="." position="inside">			
+			<script type="text/javascript" src="/theme_ahb/static/src/js/script.js" />
+			<script type="text/javascript" src="/theme_ahb/static/src/js/ahb.js" />	
+			<script type="text/javascript" src="/theme_ahb/static/src/js/jquery.cookie.min.js"></script>
+			<script type="text/javascript" src="/theme_ahb/static/src/js/age-verification.js" />	
+			<link rel="stylesheet" href="/theme_ahb/static/src/css/font-awesome/css/font-awesome.css"/>							
+			<link href="/theme_ahb/static/src/css/ahb.css" rel="stylesheet" type="text/less"/>
+			<link rel="stylesheet" href="/theme_ahb/static/src/css/age-verification.css"/>	
+            <link rel="shortcut icon" href="/theme_ahb/static/src/img/favicon.ico" type="image/x-icon"/>			
+		  </xpath>
+		</template>
+	</data>
+</openerp>

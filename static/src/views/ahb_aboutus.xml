@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+	<data>
+		<template customize_show="True" name="AHB About Us" id="ahb_aboutus">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1><span>About Us</span></h1>
+						<p class="large"><i class="icon-quote-left"></i>
+							Devote yourself to your <strong>community</strong> around you, and devote yourself to <strong>creating something</strong> that gives you purpose and meaning.<i class="icon-quote-right"></i> - Mitch Albom</p>
+					</div>
+				</div>
+
+				
+				<div class="row">
+                    <div class="col-sm-12 col-md-6 col-md-push-3">
+						<h2>Artisan crafted beer with locally sourced ingredients whenever possible.</h2>
+                        <p>At Angry Horse we work hard to brew the <strong>best beer possible</strong>, utilizing quality ingredients <strong>time tested methods</strong> overseen by our brewers to level that borders on OCD.  This artisanal approach to brewing provides the results so you know your glass will be amazing.</p>
+                        <p>To obtain the <strong>best ingredients</strong> we purchase and locally source as much as we can.  This means that we can see, smell, and taste ingredients before the yeast does its magic and turns them into beer.  In order to make the best beer we can, we believe in working with local farmers to build the <strong>local supply chain</strong> for quality ingredients and to provide jobs.</p>
+                        <p>We’re excited to continue growing the LA beer movement, where some of the best beer, from some of the best breweries in the US is being made.</p>
+						
+					</div>
+                    <div class="col-sm-6 col-md-3 col-md-pull-6">
+						<h2>Giving back to the community.</h2>
+						<p>Angry Horse was conceived and founded by a philanthropist and Rotarian dedicated to <strong>community and giving back.</strong>  We are working to become a benefit corporation dedicated to give back to the community through philanthropy, community service and support.</p>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<h2>Practicing sustainability in all that we do.</h2>
+						<p>It's build into our teams DNA that we take the best care or our environment, looking for opportunities to cut our waste down. Cycling brewing water to get multiple uses, capturing heat loss and reducing waste. <strong>Practicing Sustainability</strong> one of our key values.</p>
+					</div>
+                </div>
+			</div>
+		</template>
+	</data>
+</openerp>

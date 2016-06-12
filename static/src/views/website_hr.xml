@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+	<data>
+		<template customize_show="True" name="AHB About Us" id="ahb_aboutus">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1><span>About Us</span></h1>
+						<p class="large"><i class="icon-quote-left"></i>
+							Irure dolor in reprehenderit in <strong>voluptate velit esse cillum dolore eu fugiat</strong> nulla pariatur, aute dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur aute irure.<i class="icon-quote-right"></i>					</p>
+					</div>
+				</div>
+
+				
+				<div class="row">
+					<div class="col-md-3">
+						<h2>Lorem Ipsum voluptate velit esse cillum dolore eu fugiat</h2>
+						<p>Duis aute irure dolor in reprehenderit in <strong>voluptate velit esse cillum dolore eu fugiat</strong> nulla pariatur, aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur aute irure.</p>
+					</div>
+
+					<div class="col-md-6">
+						<h2>Lorem Ipsum voluptate velit esse cillum dolore eu fugiat</h2>
+						<p>Duis aute irure dolor in reprehenderit in <strong>voluptate velit esse cillum dolore eu fugiat</strong> nulla pariatur, aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur aute irure.</p>
+						<p>Irure dolor in reprehenderit in <strong>voluptate velit esse cillum dolore eu fugiat</strong> nulla pariatur, aute dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur aute irure.</p>
+						<p>Irure dolor in reprehenderit in <strong>voluptate velit esse cillum dolore eu fugiat</strong> nulla pariatur, aute dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur aute irure.</p>
+					</div>
+
+					<div class="col-md-3">
+						<h2>Lorem Ipsum voluptate velit esse cillum dolore eu fugiat</h2>
+						<p>Duis aute irure dolor in reprehenderit in <strong>voluptate velit esse cillum dolore eu fugiat</strong> nulla pariatur, aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur aute irure.</p>
+					</div>
+				</div>
+			</div>
+		</template>
+	</data>
+</openerp>
